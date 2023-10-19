@@ -20,7 +20,7 @@
         <div id="map" style="height: 80vh"></div>
         <script>
             const map = L.map('map', {
-                center: [35.632, 139.874],
+                center: [35.632, 139.878],
                 zoom: 5,
             });
             const backgroundLayer = L.tileLayer(
@@ -34,7 +34,7 @@
             map.addLayer(backgroundLayer);
 
             // ピン定義
-            const marker = L.marker([35.632, 139.874]); // ピン＝Markerを初期化
+            const marker = L.marker([35.632, 139.878]); // ピン＝Markerを初期化
             marker.bindPopup('東京ディズニーランド'); // ポップアップを紐付け
             map.addLayer(marker); // ピンを地図上に追加
             
